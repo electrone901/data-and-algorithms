@@ -9,7 +9,7 @@ has sufficient space at the end to hold the additional characters, and that you 
 */
 
 function URLify(str, length) {
-  // trim & using regex replace every space with '%20'
+  // trim & using regex to replace every space with '%20'
   return str.trim().replace(/\s/g, '%20');
 }
 URLify("Mr John Smith ", 13);
