@@ -31,7 +31,7 @@ Write a function that rotates a matrix clockwise:
 
   6: return res;
 
-*/  
+*/ 
 function rotate(matrix) {
   let n = matrix.length;
   if(n === 0) return false;
